@@ -315,10 +315,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .team__photo {
-    background: #f5f0dd;
+    /* background: #f5f0dd; */
+    background: #f5f0dd center top / cover no-repeat;
     width: 292px;
     height: 420px;
     flex-shrink: 0;
+}
+
+.team__photo img {
+    /* width: 100%; */
+    height: 100%;
 }
 
 .team__right {
@@ -360,7 +366,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .team__card {
-    background: #f5f0dd;
+    /* background: #f5f0dd; */
+    background: #f5f0dd center top / cover no-repeat;
     width: 181px;
     height: 196px;
     position: relative;
