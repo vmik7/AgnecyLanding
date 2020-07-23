@@ -38,13 +38,13 @@ var curCoach = 0;
 var indexArray = [ 1, 2, 3, 4 ];
 
 function setCoach(index) {
-    coachPhoto.style.backgroundImage = 'url(../img/' + coachArray[index].photo + ')';
+    coachPhoto.style.backgroundImage = 'url(img/' + coachArray[index].photo + ')';
     coachName.innerHTML = coachArray[index].name;
     coachInfo.innerHTML = coachArray[index].info;
     curCoach = index;
 }
 function setCoachMini(coachIndex, cardIndex) {
-    coachCards[cardIndex].style.backgroundImage = 'url(../img/' + coachArray[coachIndex].photo + ')';
+    coachCards[cardIndex].style.backgroundImage = 'url(img/' + coachArray[coachIndex].photo + ')';
     coachCardCaptions[cardIndex].innerHTML = coachArray[coachIndex].name;
     indexArray[cardIndex] = coachIndex;
 }
