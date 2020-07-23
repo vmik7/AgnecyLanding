@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .header {
     background: #f6f2f2;
     height: 602px;
+    min-height: 100vh;
     padding-top: 26px;
 }
 
@@ -71,7 +72,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .header__content {
     position: relative;
-    margin-top: 84px;
+    /* margin-top: 84px; */
+    margin-top: 10%;
 }
 
 .header__offer {
