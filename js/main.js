@@ -140,7 +140,7 @@ let produtsWidth = (productsPageWidth - 3 * proguctsMargin) / 4;
 let productsThreshold = (productsPageWidth + productsPageMarginRight) * .35;
 
 const productsItems = document.querySelectorAll('.' + productsItemClass);
-const productsLastItems = document.querySelectorAll('.' + productsItemClass + ':nth-child(4n+4)');
+const productsLastItems = document.querySelectorAll('.' + productsItemClass + `:nth-child(${itemsOnRow}n+${itemsOnRow})`);
 const productsNavItems = document.querySelectorAll('.' + productsNavItemClass);
 
 for (item of productsItems) {
