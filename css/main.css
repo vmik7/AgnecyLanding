@@ -70,10 +70,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: #fff;
 }
 
+.header .container {
+    height: 100%;
+}
+
 .header__content {
     position: relative;
     /* margin-top: 84px; */
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    display: flex;
+    align-items: center;
+    height: 80%;
 }
 
 .header__offer {
@@ -132,9 +139,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .video {
-    position: absolute;
-    right: 0;
-    top: 10px;
     width: 501px;
     height: 325px;
     background: #c4c0b1;
@@ -220,10 +224,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .provide__icon img {
     height: 36px;
-}
-
-.provide__service-name, .provide__service-text {
-    /* width: 90%; */
 }
 
 .provide__service-name {
@@ -314,9 +314,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     transition: all 0.3s ease;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-.products__item:hover {
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40); */
 }
 
 .team {
