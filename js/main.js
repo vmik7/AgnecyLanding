@@ -231,3 +231,18 @@ function swipeEnd() {
 
 productsTrack.addEventListener('touchstart', swipeStart);
 productsTrack.addEventListener('mousedown', swipeStart);
+
+
+
+// Плавная прокрутка до якоря
+let anchors = document.querySelectorAll('.header .nav__item');
+for (let item of anchors) {
+    item.addEventListener('click', function(event) {
+        event.preventDefault();
+        const id = this.firstElementChild.getAttribute('href');
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+}

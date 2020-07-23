@@ -52,11 +52,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     transition: all 0.3s ease;
 }
 
-.nav__item_active, .nav__item:hover {
+.nav__item.active, .nav__item:hover {
     background: #ff3f40;
     cursor: pointer;
 }
-.nav__item_active:hover {
+.nav__item.active:hover {
     cursor: default;
 }
 
@@ -475,7 +475,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .contact .section__sub-title {
     width: 668px;
-    margin-bottom: 50px;
 }
 
 .contact__wrapper {
@@ -496,6 +495,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .contact__form .form__text, .contact__form .form__email, .contact__form .form__textarea {
+    font-family: "Open Sans", sans-serif;
     background: #e5e5e5;
     border-radius: 10px;
     padding: 0 40px;
