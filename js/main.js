@@ -131,12 +131,22 @@ productsPagesHTML.forEach(function(item) {
 
 let pxRegExpr = /[-0-9.]+(?=px)/;
 let productsActivePage = 0;
+
 let itemsOnRow = 4;
-let productsPagesCount = productsPagesHTML.length;
 let proguctsMargin = 20;
+
+if (screen.width <= 991) {
+    proguctsMargin = 5;
+}
+if (screen.width <= 767) {
+    proguctsMargin = 7;
+    itemsOnRow = 3;
+}
+
+let productsPagesCount = productsPagesHTML.length;
 let productsPageWidth = productsWrapper.offsetWidth;
 let productsPageMarginRight = +getComputedStyle(document.querySelector('.' + productsPageClass)).marginRight.match(pxRegExpr)[0];
-let produtsWidth = (productsPageWidth - 3 * proguctsMargin) / 4;
+let produtsWidth = (productsPageWidth - (itemsOnRow - 1) * proguctsMargin) / itemsOnRow;
 let productsThreshold = (productsPageWidth + productsPageMarginRight) * .35;
 
 const productsItems = document.querySelectorAll('.' + productsItemClass);

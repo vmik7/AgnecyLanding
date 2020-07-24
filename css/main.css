@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .header {
     background: #f6f2f2;
-    height: 602px;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 600px;
     padding-top: 26px;
 }
 
@@ -551,7 +551,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .contact-info__text {
     margin-top: 19px;
-    width: 284px;
+    max-width: 284px;
 }
 
 .footer {

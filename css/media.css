@@ -89,11 +89,365 @@
     .container {
         width: 720px;
     }
+    .plane-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .nav__item {
+        height: 70px;
+        line-height: 70px;
+        padding: 0 17px 0 17px;
+    }
+    .nav__item a {
+        font-size: 12px;
+    }
+    .header .container {
+        height: auto;
+    }
+    .header__content {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 50px 0;
+    }
+    .header__offer {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .header__title {
+        font-size: 37px;
+        line-height: 44px;
+    }
+    .header__sub-title {
+        width: 500px;
+    }
+    .header__offer > * {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button {
+        width: 175px;
+        height: 47px;
+        line-height: 47px;
+        font-size: 14px;
+    }
+    .header__button {
+        margin-top: 25px;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .section_separator {
+        padding: 0;
+    }
+    .section__head {
+        margin-bottom: 50px;
+    }
+    .provide__wrapper {
+        flex-direction: column;
+    }
+    .provide__left, .provide__right {
+        width: 100%;
+    }
+    .provide__left {
+        margin-bottom: 20px;
+    }
+    .section__head {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .provide .section__head {
+        width: 100%;
+    }
+    .section__title {
+        font-size: 25px;
+        line-height: 40px;
+        width: 425px;
+    }
+    .section__sub-title {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 500px;
+    }
+    .section__head > * {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .provide .section__sub-title {
+        margin: 25px auto;
+    }
+    .provide__learn-more {
+        margin-top: 30px;
+    }
+    .provide__row {
+        margin-bottom: 60px;
+    }
+    .provide__item {
+        text-align: center;
+        width: 50%;
+        padding: 0 40px;
+    }
+    .provide__service-name {
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+    .products__nav-item {
+        font-size: 15px;
+        margin-right: 35px;
+    }
+    .team__photo {
+        width: 210px;
+        height: 287px;
+    }
+    .team__right {
+        margin-left: 40px;
+    }
+    .team__name {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 7px;
+    }
+    .team__description {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .team__social a {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .team__card {
+        width: 115px;
+        height: 130px;
+    }
+    .team__card-caption {
+        font-size: 9px;
+        line-height: 30px;
+    }
+    .subscribe__title {
+        font-size: 23px;
+    }
+    .subscribe__sub-title {
+        margin-top: 8px;
+        margin-bottom: 25px;
+    }
+    .subscribe__form .form__input {
+        height: 50px;
+    }
+    .subscribe__form .form__email {
+        width: 400px;
+        margin-right: 5px;
+        padding: 0 25px;
+    }
+    .subscribe__form .form__submit {
+        width: 150px;
+    }
+    .form__submit {
+        font-size: 12px;
+    }
+    .contact .section__sub-title {
+        width: 500px;
+    }
+    .contact__form {
+        width: 445px;
+    }
+    .contact__form .form__text, .contact__form .form__email {
+        width: 218px;
+    }
+    .contact__form .form__input {
+        height: 50px;
+    }
+    .contact__form .form__textarea {
+        margin: 10px 0;
+    }
+    .contact__form .form__text, .contact__form .form__email, .contact__form .form__textarea {
+        border-radius: 10px;
+        padding: 0 20px;
+    }
+    .contact__form .form__textarea {
+        padding-top: 15px;
+    }
+    .contact__right {
+        width: 35%;
+        padding-left: 40px;
+    }
+    .contact-info__title {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .contact-info__text {
+        margin-top: 15px;
+    }
+    .footer__wrapper {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact__right {
+        width: 32%;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .container {
         width: 540px;
+    }
+    .nav__item {
+        height: 60px;
+        line-height: 60px;
+        padding: 0 15px 0 15px;
+    }
+    .nav__item a {
+        font-size: 10px;
+    }
+    .header__title {
+        font-size: 33px;
+        line-height: 44px;
+    }
+    .plane-text {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .header__sub-title {
+        max-width: 450px;
+        margin-top: 10px;
+    }
+    .button {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    .header__button {
+        margin-top: 20px;
+    }
+    .header__content {
+        padding: 35px 0;
+        height: 80%;
+    }
+    .header__offer {
+        margin-bottom: 60px;
+    }
+    .header .container {
+        height: 100%;
+    }
+    .video {
+        box-shadow: 0px -5px 25px 0px rgba(0, 0, 0, 0.29);
+        width: 420px;
+        height: 235px;
+    }
+    .section__title {
+        font-size: 22px;
+        line-height: 30px;
+        width: 100%;
+        max-width: 400px;
+    }
+    .provide .section__sub-title {
+        margin: 20px auto;
+    }
+    .provide__learn-more {
+        margin-top: 20px;
+    }
+    .provide__left {
+        margin-bottom: 10px;
+    }
+    .provide__row {
+        margin-bottom: 40px;
+    }
+    .section__sub-title {
+        max-width: 450px;
+    }
+    .products__nav-item {
+        font-size: 11px;
+        margin-right: 20px;
+    }
+    .section__head {
+        margin-bottom: 40px;
+    }
+    .products__nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .team__photo {
+        width: 180px;
+        height: 247px;
+    }
+    .team__right {
+        margin-left: 30px;
+    }
+    .team__name {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .team__description {
+        width: auto;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+    .team__social a {
+        font-size: 12px;
+        margin-right: 14px;
+    }
+    .team__card {
+        width: 78px;
+        height: 85px;
+    }
+    .team__card-caption {
+        display: none;
+    }
+    .section {
+        padding: 45px 0;
+    }
+    .subscribe__title {
+        font-size: 19px;
+    }
+    .subscribe__form .form__input {
+        height: 42px;
+    }
+    .subscribe__form .form__email {
+        width: 350px;
+        padding: 0 20px;
+    }
+    .subscribe__form .form__submit {
+        width: 110px;
+    }
+    .form__submit {
+        font-size: 10px;
+    }
+    .contact__form {
+        width: 100%;
+    }   
+    .contact__form .form__input {
+        height: 45px;
+    }
+    .contact__form .form__text, .contact__form .form__email {
+        width: 49%;
+    }
+    .contact__right {
+        position: static;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 170px;
+        width: 540px;
+        margin-top: 20px;
+    }
+    .contact-info__text {
+        margin-top: 7px;
+    }
+    .footer {
+        padding-top: 0;
+    }
+    .footer__wrapper {
+        height: 55px;
+    }    
+    .footer__social a {
+        margin-right: 10px;
+    }
+    .footer__social img {
+        height: 20px;
     }
 }
 
